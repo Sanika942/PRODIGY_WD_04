@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="left">Sanika's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#pro">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            
+        </nav>
+    </header>
+    
+    <main>
+        <section class="firstsection" id="about">
+            <div class="leftsection">
+                Hi, My name is <span class="purple">Sanika</span>
+                <div>and I am a passionate</div>
+                <span id="element"></span>
+                <div class="button">
+                    <button class="btn"><a href="Resume_sanika.docx" download="Resume_sanika.docx">Download Resume</a></button>
+                    <button class="btn"><a href="https://www.linkedin.com/in/sanika-dhongade-5b0061254"> Visit LinkedIn</a></button>
+                </div>
+            </div>
+            <div class="rightsection">
+                <img src="SDD.png">
+            </div>
+        </section>
+        
+        <section class="secondsection" id="pro">
+            <!-- <span class="textgray">what I have done far</span> -->
+            <h1>Projects</h1>
+            <div class="box">
+                <div class="vertical">
+                    <img class="image-top" src="book.jpeg" alt="">
+                    <div class="vertical-title">
+                        Online Books Exchange
+                    </div>
+                    <div class="vertical-des">
+                        Through an Online Book Exchange ,user gain increased accessibility to a wide range of books and study materials,saving costs and redusing environmental impact by resing and recycling books.The convenience and flexibility of the platform allow user users to engade in book exchanges at their own pace and shedule.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="sensor.jpeg" alt="">
+                    <div class="vertical-title">
+                        Laser Security with PIR Sensor
+                    </div>
+                    <div class="vertical-des">
+                        It providers us the security against any crime,theft in our day-to-day life and so people can install them in order to stay safe and secure.The " Laser Security with PIR Sensor" is an importanat helping system.Using this system robbery,thefts & crime can be avoided to large extent.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="farmer.jpeg" alt="">
+                    <div class="vertical-title">
+                        AgroTech Private Limited
+                    </div>
+                    <div class="vertical-des">
+                        The growth in agro-based industries has a big potential to trigger development through adding value to the farmers' produce, generating employment opportunities and increasing farmers' income. This in turn motivates the farmers for better productivity and opens up possibilities of industrial development.
+                    </div>
+                </div>
+                
+                </div>
+            </div>
+        </section>
+        <section class="skills" id="skills">
+            <h1>Skills</h1>
+            <div class="skills-text">
+                
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>Javascript</li>
+                    <li>React</li>
+                    <li>C++</li>
+                    <li>Python</li>
+                    <li>Java</li>
+                </ul>
+            </div>
+
+        </section>
+    </main>
+    <footer>
+        <div class="footer" id="contact">
+            <div class="link">
+                <h1>Contact Us</h1>
+                <div class="info">
+                    <div class="contact">Emial Id:<span class="white-text">sanikadhongde@gmail.com</span></div>
+                    <div class="contact">Phone Number:<span class="white-text">8010311820</span></div>
+                    <!-- <p>Phone Number:<span calss="contact">8010311820</span></p> -->
+                </div>
+            </div>
+        </div>
+        <div class="text-rigths">
+            Copyright &#169;www.sanikaportfolio.com | All rights reserved
+        </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+          strings: ['Web Developer', 'Web Desiginer'],
+          typeSpeed: 50,
+        });
+      </script>
+</body>
+</html>
